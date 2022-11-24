@@ -57,7 +57,7 @@ public class SampleApp3v2 {
 		      ts3 = ts2, Sort, CsvOut
 	 */
 
-	public static void main(String[] args) throws ClassNotFoundException, NoSuchMethodException, SecurityException, InstantiationException, IllegalAccessException, IllegalArgumentException, InvocationTargetException, IOException, JAXBException {
+	public static void main(String[] args) throws ClassNotFoundException, NoSuchMethodException, SecurityException, InstantiationException, IllegalAccessException, IllegalArgumentException, InvocationTargetException, IOException, JAXBException, jakarta.xml.bind.JAXBException {
 		
 		java.util.Map<String,String> prop1 = new HashMap<String,String>();
 		prop1.put(SqlTaskMd.PROP_SQL_CONNECTION_URL, "jdbc:h2:tcp://localhost/~/test");

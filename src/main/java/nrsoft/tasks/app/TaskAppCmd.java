@@ -833,7 +833,10 @@ public class TaskAppCmd {
 			processDAO.saveProcessDefinition(processDefinition);
 			
 			out.println("Process generated / id=" + processDefinition.getProcessId());
-		} catch (JAXBException | IOException e) {
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (jakarta.xml.bind.JAXBException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
