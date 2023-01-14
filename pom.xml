@@ -33,12 +33,12 @@
 	  <version>3.0.0</version>
 	</dependency>     
 	
-<!-- https://mvnrepository.com/artifact/org.eclipse.persistence/org.eclipse.persistence.jpa -->
-<dependency>
-    <groupId>org.eclipse.persistence</groupId>
-    <artifactId>org.eclipse.persistence.jpa</artifactId>
-    <version>3.0.3</version>
-</dependency>
+	<!-- https://mvnrepository.com/artifact/org.eclipse.persistence/org.eclipse.persistence.jpa -->
+	<dependency>
+	    <groupId>org.eclipse.persistence</groupId>
+	    <artifactId>org.eclipse.persistence.jpa</artifactId>
+	    <version>3.0.3</version>
+	</dependency>
    
   
   </dependencies>
