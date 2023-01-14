@@ -9,7 +9,6 @@ import nrsoft.tasks.metadata.FileTaskCsvMd;
 import nrsoft.tasks.metadata.FileTaskMd;
 import nrsoft.tasks.metadata.IdleTaskMd;
 import nrsoft.tasks.metadata.SortTaskMd;
-import nrsoft.tasks.metadata.SqlTaskMd;
 import nrsoft.tasks.metadata.SqlTaskSelectMd;
 import nrsoft.tasks.metadata.TaskGroupExecutionType;
 import nrsoft.tasks.metadata.TaskGroupMd;

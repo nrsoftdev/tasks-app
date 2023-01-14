@@ -6,12 +6,10 @@ import java.lang.reflect.InvocationTargetException;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.LinkedList;
-import java.util.List;
-
-import javax.xml.bind.JAXBException;
 
 import org.springframework.schema.beans.Beans;
 
+import jakarta.xml.bind.JAXBException;
 import nrsoft.tasks.ProcessData;
 import nrsoft.tasks.Task;
 import nrsoft.tasks.TaskResult;

@@ -1,6 +1,5 @@
 package nrsoft.tasks.app;
 
-import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStream;
@@ -18,8 +17,6 @@ import java.util.TreeMap;
 import java.util.TreeSet;
 import java.util.stream.Stream;
 
-import javax.xml.bind.JAXBException;
-
 import org.springframework.schema.beans.Beans;
 
 import it.nrsoft.nrlib.argparser.ArgParser;
@@ -30,8 +27,6 @@ import it.nrsoft.nrlib.tuples.Pair;
 import it.nrsoft.nrlib.util.Util;
 import nrsoft.connectors.io.TextConnector;
 import nrsoft.connectors.jdbc.JdbcConnector;
-import nrsoft.tasks.ProcessData;
-import nrsoft.tasks.Task;
 import nrsoft.tasks.TaskResult;
 import nrsoft.tasks.ValueTypes;
 import nrsoft.tasks.app.sample.DemoApp;
@@ -50,7 +45,6 @@ import nrsoft.tasks.runtime.Process;
 import nrsoft.tasks.runtime.ProcessObserver;
 import nrsoft.tasks.runtime.ProcessObserverPersistance;
 import nrsoft.tasks.runtime.Processes;
-import nrsoft.tasks.runtime.TaskProviderSpringFilesystem;
 import nrsoft.tasks.spring.BeanCreator;
 import nrsoft.tasks.spring.XmlSpringConfigurationBuilder;
 

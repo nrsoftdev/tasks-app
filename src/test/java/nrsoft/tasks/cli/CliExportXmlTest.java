@@ -13,14 +13,10 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
 
-import javax.xml.bind.JAXBContext;
-import javax.xml.bind.JAXBException;
-import javax.xml.bind.Marshaller;
-import javax.xml.bind.Unmarshaller;
-
 import org.junit.Test;
 import org.xml.sax.InputSource;
 
+import jakarta.xml.bind.*;
 import nrsoft.tasks.def.TaskDefinition;
 import nrsoft.tasks.metadata.FileTaskCsvInMd;
 import nrsoft.tasks.metadata.FileTaskCsvMd;
